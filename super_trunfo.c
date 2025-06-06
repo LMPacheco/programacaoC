@@ -23,7 +23,7 @@ int main() {
     scanf("%s", &cidade);
 
     printf("Digite a população da cidade: \n");
-    scanf("%u", &populacao);
+    scanf("%lu", &populacao);
 
     printf("Digite a área da cidade: \n");
     scanf("%f", &area);
@@ -49,7 +49,7 @@ int main() {
     printf("Código da carta: %s\n", codigo);
     printf("Nome do estado: %c\n", estado);
     printf("Nome da cidade: %s\n", cidade);
-    printf("População da cidade: %u\n", populacao);
+    printf("População da cidade: %lu\n", populacao);
     printf("Área da cidade: %.1f km²\n", area);
     printf("PIB da cidade: %.1f milhões de reais\n", pib);
     printf("Quantidade de pontos turísticos: %d\n", turismo);
@@ -84,7 +84,7 @@ int main() {
     scanf("%s", &Cidade);
 
     printf("Digite a população da cidade: \n");
-    scanf("%u", &Populacao);
+    scanf("%lu", &Populacao);
 
     printf("Digite a área da cidade: \n");
     scanf("%f", &Area);
@@ -112,7 +112,7 @@ int main() {
     printf("Código da carta: %s\n", Codigo);
     printf("Nome do estado: %c\n", Estado);
     printf("Nome da cidade: %s\n", Cidade);
-    printf("População da cidade: %u\n", Populacao);
+    printf("População da cidade: %lu\n", Populacao);
     printf("Área da cidade: %.1f km²\n", Area);
     printf("PIB da cidade: %.1f milhões de reais\n", Pib);
     printf("Quantidade de pontos turísticos: %d\n", Turismo);
@@ -152,8 +152,6 @@ int main() {
     printf("Percapita > percapita: %d\n", Percapita > percapita);
     printf("Densidadeinversa > densidadeinversa: %d\n", Densidadeinversa > densidadeinversa);
     printf("Superpoder > superpoder: %d\n", Superpoder > superpoder);
-
-    
 
     return 0;
 
